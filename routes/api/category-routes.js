@@ -42,8 +42,8 @@ router.post('/', async (req, res) => {
 // function to update a category by its id value
 router.put('/:id', async (req, res) => {
   try {
-    const updateCategory = await Category.update(req.body, {where: {id: req.params.id}});
-    !updateCategory[0]? res.status(404).json({message: 'id Not Found!'}) : res.status(200).json(updateCategory);
+    const updated = await Category.update(req.body, {where: {id: req.params.id}});
+    !updated[0]? res.status(404).json({message: 'id Not Found!'}) : res.status(200).json(updated);
   } catch (err) {
     res.status(500).json({message: 'Fail to update the category'});
   }
@@ -52,8 +52,8 @@ router.put('/:id', async (req, res) => {
 // function to delete a category by its id value
 router.delete('/:id', async (req, res) => {
   try {
-    const deleteCategory = await Category.destroy({where: {id: req.params.id}});
-    !deleteCategory? res.status(404).json({message: 'id Not Found!'}) : res.status(200).json(deleteCategory);
+    const deleted = await Category.destroy({where: {id: req.params.id}});
+    !deleted? res.status(404).json({message: 'id Not Found!'}) : res.status(200).json(deleted);
   } catch (err) {
     res.status(500).json(err);
   }

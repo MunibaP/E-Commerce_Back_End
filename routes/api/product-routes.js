@@ -133,7 +133,7 @@ router.put("/:id", async(req, res) => {
 
       await Promise.all([
         ProductTag.destroy({where: {id: productTagsToRemove}}),
-        productTag.bulkCreate(newProductTags),
+        ProductTag.bulkCreate(newProductTags),
       ]);
     }
 

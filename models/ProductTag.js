@@ -21,6 +21,7 @@ ProductTag.init(
         key: 'id',
       }
     },
+    // defining 'tag_id' columns
     tag_id: {
       type: DataTypes.INTEGER,
       references: {

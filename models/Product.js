@@ -16,10 +16,12 @@ Product.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    // defining an 'product_name' columns
     product_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
+    // defining an 'price' columns
     price: {
       type: DataTypes.DECIMAL,
       allowNull: false,
@@ -27,6 +29,7 @@ Product.init(
         isDecimal: true,
       },
     },
+    // defining an 'stock' columns
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -35,6 +38,7 @@ Product.init(
         isNumeric: true,
       },
     },
+    // defining an 'category_id' columns
     category_id: {
       type: DataTypes.INTEGER,
       references: {

@@ -102,8 +102,8 @@ Contributions to the E-Commerce Back End are welcome and encouraged. Here are so
 There are no tests required for this project.
 
 ## Links
-- Video Link: [E-Commerce Back End walkthrough video]()
-- [GitHub repository](https://github.com/MunibaP/Note_Taker.git)
+- Video Link: [E-Commerce Back End walkthrough video](https://drive.google.com/file/d/1oVXdE9FimQ4XCNSwK1eQTTGJUnQO5r71/view?usp=sharing)
+- [GitHub repository](https://github.com/MunibaP/E-Commerce_Back_End.git)
   
 ## Questions
 I appreciate and encourage any questions you may have. Feel free to reach out for further information.

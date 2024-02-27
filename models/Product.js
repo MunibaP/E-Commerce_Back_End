@@ -9,7 +9,7 @@ class Product extends Model {}
 // set up fields and rules for Product model
 Product.init(
   {
-    // define an 'id' columns
+    // defining an 'id' columns
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -21,7 +21,7 @@ Product.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    // defining an 'price' columns
+    // defining 'price' columns
     price: {
       type: DataTypes.DECIMAL,
       allowNull: false,
@@ -29,7 +29,7 @@ Product.init(
         isDecimal: true,
       },
     },
-    // defining an 'stock' columns
+    // defining 'stock' columns
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -38,7 +38,7 @@ Product.init(
         isNumeric: true,
       },
     },
-    // defining an 'category_id' columns
+    // defining 'category_id' columns
     category_id: {
       type: DataTypes.INTEGER,
       references: {

@@ -93,7 +93,7 @@ Contributions to the E-Commerce Back End are welcome and encouraged. Here are so
   - If you encounter any issues or have suggestions for new features, please open an issue on the GitHub repository.
     
 2. **Enhancements to E-Commerce Back End Application:**
-  -  We welcome contributions aimed at improving E-Commerce Back End aaplication. If you find ways to enhance the application or identify any limitations, feel free to submit a pull request.
+  -  We welcome contributions aimed at improving E-Commerce Back End application. If you find ways to enhance the application or identify any limitations, feel free to submit a pull request.
 
 3. **Documentation Improvements:**
   - Help improve the clarity and completeness of this documentation. If you find areas that need clarification or additional information, submit a pull request with your suggested changes.     

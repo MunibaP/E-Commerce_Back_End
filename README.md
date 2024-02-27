@@ -74,7 +74,7 @@ To clone: git clone https://github.com/your-username/repository-name.git
 
 2. To initiate the database setup, utilize the schema.sql file located in the db folder by executing MySQL shell commands. Similarly, use the environment variable to store sensitive data like your MySQL username, password, and database name. 
 
-3. Use the command 'npm run seed' to populate the database with test data. Afterwards, initiate the server and synchronize the Sequelize models with the MySQL database by running 'npm start' or 'nodemon'.
+3. Use the command 'npm run seed' to populate the database with test data. Afterwards, initiate the server and synchronize the Sequelize models with the MySQL database by running 'npm start'.
 
 4. Create a development database with sample data by utilizing the schema and seed commands.
 
